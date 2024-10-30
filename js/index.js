@@ -1,3 +1,13 @@
+/* 
+File: index.js
+GUI Assignment: Homework 3 - 
+Content: 
+Alireza Jahanban, UMass Lowell Computer Science, Alireza_Jahanban@student.uml.edu
+Copyright (c) 2024 by Jahanban. All rights reserved. 
+This code is free to use by anyone for business or educational purposes with credit to the author.
+Written in Oct 2024.
+*/
+
 
 function generateTable() {
     const min_row = parseInt(document.getElementById('min-row').value);

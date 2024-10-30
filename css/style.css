@@ -1,3 +1,13 @@
+/* 
+File: style.css
+GUI Assignment: Homework 3 - 
+Content: This files uses CSS to style to structure the index page. 
+Alireza Jahanban, UMass Lowell Computer Science, Alireza_Jahanban@student.uml.edu
+Copyright (c) 2024 by Jahanban. All rights reserved. 
+This code is free to use by anyone for business or educational purposes with credit to the author.
+Written in Oct 2024.
+*/
+
 h1, label {
     color: white;
 }
@@ -64,9 +74,13 @@ th {
 td:first-child {
     background-color: #222;
     font-weight: bold;
+    position: sticky;
+    left: 0;
 }
 table tr:first-child {
     background-color: #222;
+    position: sticky;
+    top: 0;
 }
 tr:nth-child(even) {
     background-color: #333;
