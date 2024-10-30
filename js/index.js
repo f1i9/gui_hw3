@@ -1,7 +1,12 @@
 /* 
 File: index.js
-GUI Assignment: Homework 3 - 
-Content: 
+GUI Assignment: Homework 3
+Content: This file contains JavaScript functions for generating and displaying a multiplication table 
+based on user inputs from an HTML form. The `generateTable` function captures minimum and maximum 
+row and column values, validates input, and dynamically builds an HTML table containing the products 
+of each cell. The function also restricts the table size to a maximum difference of 100 rows and 
+columns. Additionally, `clearFields` resets the input fields and clears the table display. 
+Event listeners on input fields allow table generation with the Enter key.
 Alireza Jahanban, UMass Lowell Computer Science, Alireza_Jahanban@student.uml.edu
 Copyright (c) 2024 by Jahanban. All rights reserved. 
 This code is free to use by anyone for business or educational purposes with credit to the author.
@@ -17,7 +22,7 @@ function generateTable() {
 
 
     const tableContainer = document.getElementById('tableContainer');
-    tableContainer.innerHTML = '';
+    tableContainer.innerHTML = "";
 
     if (! (isNaN(min_row) || isNaN(max_row) || isNaN(min_col) || isNaN(max_col)) ) {
 
