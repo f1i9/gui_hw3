@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Multiplication Table Generator</h1>
+
+    <div id="inputbox">
+        <input type="number" id="min-row" placeholder="Min Row" />
+        <input type="number" id="max-row" placeholder="Max Row" />
+        <input type="number" id="min-col" placeholder="Min Col" />
+        <input type="number" id="max-col" placeholder="Max Col" />
+        <button id="generate-button" onclick="generateTable()">Generate</button>
+        <button id="clear-button" onclick="clearFields()">Clear</button>
+    </div>
+
+    <div class="table-container" id="tableContainer"></div>
+    <script src="js/index.js"></script>
+</body>
+</html>
